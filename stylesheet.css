@@ -1,0 +1,219 @@
+
+body {
+	background-color: lightgrey;
+  font-family: Helvetica;
+  color: #434343;
+  text-align: center;
+  font-size: 16px;
+}
+
+@font-face {
+  font-family: Snell Roundhand;
+}
+
+#nav {
+  text-align: right;
+  margin-right: auto;
+  padding-right: 15px;
+  word-spacing: 5px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  font-size: 1.5em;
+}
+
+#nav img {
+  float: left;
+  width: 175px;
+  height: 175px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.intro {
+  font-size: 2.25em;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  margin-top: 20%;
+  clear: left;
+  line-height: 1.5;
+}
+
+h2 {
+  clear: left;
+  font-size: 2em;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+.funfacts ul {
+  padding: 10px;
+}
+
+.funfacts {
+  position: static;
+  width: 100%;
+  word-spacing: 10px;
+  font-size: 2em;
+}
+
+.karaoke {
+  color:white; font-family: Snell Roundhand;
+}
+
+.espresso {
+  color:white; font-family: Courier; font-size: 40px;  
+}
+
+.aboutme {
+  width: 100%;
+  text-align: left;
+  font-size: 1.25em;
+}
+
+#skills {
+  padding-left: 5%;
+}
+
+#nicole {
+  position: absolute;
+  width: 400px;
+  right: 0;
+  clear: left;
+}
+
+.projects {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projects div {
+  height: 400px;
+  width: 600px;
+  border: 4px solid #434343;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+
+
+blockquote {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+a:link {
+  text-decoration: none;
+  color: #434343;
+}
+
+a:visited {
+  color: #434343;
+}
+
+a:hover {
+  color: white;
+}
+
+h1 {
+  font-size: 30px; 
+  text-align: center; 
+  color: #434343; 
+  font-weight: bold;
+}
+
+#envelope img {
+  position: fixed;
+  float: left;
+  bottom: 0;
+  left: 0;
+  margin: 25px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  clear: left;
+}
+
+.social {
+  border: 1px solid black;
+  position: relative;
+  display: inline;
+  bottom: 0;
+  left: 0;
+  top: 50px;
+}
+
+input[type="text"] {
+  font-size: 16px;
+  font-style: italic;
+  color: lightgrey;
+}
+
+textarea {
+  font-size: 16px;
+}
+
+.designer {
+  font-family: Snell Roundhand, cursive;
+  color: #B10000;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.developer {
+  font-family: Courier;
+  color: #B10000;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+#about {
+  position: absolute;
+  margin-left: 475px;
+  top: 350px;
+  text-align: left;
+  overflow: hidden;
+}
+
+
+#top, #bottom, #left, #right {
+  background: #434343;
+  border: 2px groove #434343;
+  position: fixed;
+  }
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 10px;
+    }
+    #left { 
+      left: 0; 
+  }
+    #right { 
+      right: 0; 
+  }
+    
+  #top, #bottom {
+    left: 0; 
+    right: 0;
+    height: 10px;
+  }
+    #top { 
+      top: 0;
+  }
+    #bottom { 
+      bottom: 0;
+  }
+
