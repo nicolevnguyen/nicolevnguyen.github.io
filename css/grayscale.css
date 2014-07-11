@@ -424,13 +424,13 @@ body {
 }
 
 .ac-container article a {
-    color: black;
+    color: white;
     font-weight: bold;
     font-style: italic;
 }
 
 .ac-container article a:hover {
-    color: white;
+    color: black;
 }
 
 .ac-container article p{
