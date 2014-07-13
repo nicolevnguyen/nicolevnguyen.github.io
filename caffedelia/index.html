@@ -7,51 +7,113 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato:900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	
+
 </head>
 
 <body>
 <div class="bigcontainer">
 
 		<div class="section group">
-			<div class="col span_12_of_12">
-			<header>
-				<img src="logo.png"/>
-				<h3>The Coffee That Made White Center Famous</h3>
-			</header>
+			<div class="col span_1_of_3"></div>
+
+			<div class="col span_1_of_3">
+				<img src="logo.png"/><span><h2>The Coffee That Made White Center Famous</h2></span>
 			</div>
-		</div>
+
+			<div class="col span_1_of_3">
+				<nav class="nav">
+				  <ul class="nav-list nav-hidden">
+				  	<li class="nav-item"><a href="#">Home</a></li>
+				    <li class="nav-item"><a href="#">News</a></li>
+				    <li class="nav-item"><a href="#">Menu</a></li>
+				    <li class="nav-item"><a href="#" style="border-right:none;">About</a></li>
+				  </ul>
+				  <div class="nav-mobile"></div>
+				</nav> 			
+			</div>
+
+
 
 		<div class="section group">
-			<div class="col span_4_of_12">
-				<img src="bar.jpg" height="100%" width="100%"/>
+			<div class="col span_1_of_3">
+				<div class="stack">
+				<div class="standardimg">
+				<img src="bar.jpg" width="100%"/></div></div>
 			</div>
 			
-			<div class="col span_4_of_12">
-				<img src="cup.jpg" height="100%" width="100%"/>
+			<div class="col span_1_of_3">
+				<div class="stack">
+				<div id="mobileimg">
+				<img src="espresso.png" width="100%"/></div></div>
 			</div>
 			
-			<div class="col span_4_of_12">
-				<img src="seating.jpg" height="100%" width="100%"/>
+			<div class="col span_1_of_3">
+				<div class="stack">
+				<div class="standardimg">
+				<img src="seating.jpg" width="100%"/></div></div>
 			</div>	
 		</div>
 
-				
+		<div class="section group">
+			<div class="col span_1_of_3">
+				<h1>HOURS</h1><br>
+				<ul><h3>
+					<li>Weekdays: 7am - 2pm</li>
+					<li>Weekends: 8am - 2pm</li>
+				</ul></h3>
 			</div>
-	<h1><span>COFFEE</span></h1>
-	<h3>Proudly slinging <a href="http://www.veltonscoffee.com/" target="_blank">Velton's Coffee<a></h3>
+
+			<div class="col span_1_of_3">
+				<h1>LOCATION</h1><br>
+				<ul><h3>
+					<li>9662B 16th Ave. SW</li>
+					<li>Seattle, Washington 98106</li>
+				</ul></h3>
+			</div>
+
+			<div class="col span_1_of_3">
+				<h1>CONTACT</h1><br>
+				<ul><h3>
+					<li>(206) 294 - 1617</li>
+					<li>caffedelia@gmail.com</li>
+				</ul></h3>
+			</div>
 
 
-<!-- 
-	<h1><span>HOURS</span></h1>
-	<h3>Mon: 7:00 am - 2:00 pm <br>
-		Tue: 7:00 am - 2:00 pm <br>
-		Wed: 7:00 am - 4:00 pm<br>
-		Thu: 7:00 am - 4:00 pm<br>
-		Fri: 7:00 am - 4:00 pm<br>
-		Sat: 8:00 am - 4:00 pm<br>
-		Sun: 8:00 am - 2:00 pm</h3> -->
-
-	
-</div>
+		</div>
 </body>
+		<script>
+		(function () {
+		
+		    // hasClass
+		    function hasClass(elem, className) {
+		        return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+		    }
+		
+		    // toggleClass
+		    function toggleClass(elem, className) {
+		        var newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
+		        if (hasClass(elem, className)) {
+		            while (newClass.indexOf(' ' + className + ' ') >= 0) {
+		                newClass = newClass.replace(' ' + className + ' ', ' ');
+		            }
+		            elem.className = newClass.replace(/^\s+|\s+$/g, '');
+		        } else {
+		            elem.className += ' ' + className;
+		        }
+		    }
+		
+		    // Mobile nav function
+		    var mobileNav = document.querySelector('.nav-mobile');
+		    var standardNav = document.querySelector('.nav-list');
+		    mobileNav.onclick = function () {
+		        toggleClass(this, 'nav-mobile-open');
+		        toggleClass(standardNav, 'nav-active');
+		        toggleClass(standardNav, 'nav-hidden');
+		    };
+		})();
+		</script>
+
 </html>
