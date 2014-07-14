@@ -184,7 +184,7 @@ h2 {
 .nav-mobile {
   display:none; /* Hide from browsers that don't support media queries */
   border: 3px ridge #dfc170;
-  margin: 30px 40px 0 0;
+  margin: 15px 25px;
   cursor:pointer;
   position:absolute;
   top:0;
@@ -271,10 +271,6 @@ h2 {
 		width: 100%;
 	}
 
-	h2 {
-		font-size: .9em;
-	}
-
 	#mobileimg { 
 		max-width: 90%;
 		margin-right: auto;
@@ -291,6 +287,10 @@ h2 {
 
 	span:before, span:after {
 		border: none;
+	}
+
+	h2 {
+		font-size: 12px;
 	}
 
 }
