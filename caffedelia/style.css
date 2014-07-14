@@ -51,22 +51,16 @@ table {
 Custom CSS begins here!*/
 
 .bigcontainer {
-	width: 97%;
+	width: 90%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	overflow: hidden;
 }
 
 body {
-	background-color: #679CA8;
+	background-color: #41606e;
 }
-
-
-header {
-	line-height: .25px;
-}
-
-
 
 h1 {
 	font-family: 'Lato', sans-serif;
@@ -76,6 +70,32 @@ h1 {
 	text-shadow: -5px 4px 4px black;
 	margin-top: 25px;
 }
+span {
+  display: inline-block;
+  position: relative;
+}
+
+span:before,
+span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 3.5px solid #A8D3E3;
+  border-top: 3.5px solid #A8D3E3;
+  top: 40%;
+  width: 150%;
+}
+
+span:before {
+	right: 100%;
+	margin-right: 5%;
+}
+
+span:after {
+	left: 100%;
+	margin-left: 5%;
+}
+
 
 
 h2 {
@@ -87,52 +107,6 @@ h2 {
 	font-weight: bold;
 }
 
-h3 {
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	color: #A8D3E3;
-	font-weight: normal;
-	font-weight: bold;
-	line-height: 1.5em;
-}
-
-span {
-  display: inline-block;
-  position: relative;  
-}
-
-span:before,
-span:after {
-  content: "";
-  position: absolute;
-  height: 5px;
-  border-bottom: 3.5px solid #A8D3E3;
-  border-top: 3.5px solid #A8D3E3;
-  top: 40%;
-  width: 120%;
-}
-span:before {
-  right: 100%;
-  margin-right: 10%;
-}
-span:after {
-  left: 100%;
-  margin-left: 10%;
-}
-
-a {
-	text-decoration: none;
-	color: #A8D3E3; 
-}
-
-
-/*.polaroid {
-    border:1px solid #eee;
-    border-radius:4px;
-    padding: 10px 10px 40px 10px;
-    box-shadow:10px 5px 10px;
-    background-color:#f3f3f3;
-}*/
 
 .stack { 
 	position: relative; 
@@ -179,8 +153,8 @@ a {
 
 .nav-list {
 	float: right;
-	margin-right: 3%;
-	margin-top: 3%;
+	margin-right: 5%;
+	margin-top: 5%;
 }
 
 .nav-list li {
@@ -188,18 +162,18 @@ a {
   
 }
 .nav-item {
-  float:left;
   *display:inline;
   zoom:1;
 }
 
 .nav-item a {
+  width: 90%;
+  text-decoration: none;
   display:inline-block;
-  padding:6px 16px;
+  padding: 12px;
   font-family: 'Raleway', sans-serif;
-  font-size: 1em;
   font-weight: bold;
-  color: white;
+  color: #4A2E0B;
   background:#A8D3E3;
 }
 
@@ -209,15 +183,15 @@ a {
 
 .nav-mobile {
   display:none; /* Hide from browsers that don't support media queries */
-  border: 2px ridge #dfc170;
-  margin-top: 10px;
+  border: 3px ridge #dfc170;
+  margin: 30px 40px 0 0;
   cursor:pointer;
   position:absolute;
   top:0;
   right:0;
-  background:#A8D3E3 url(menu.svg);
-  height:30px;
-  width:30px;
+  background:#A8D3E3 url(menu.svg) no-repeat center;
+  height:40px;
+  width:40px;
   padding: 1px;
   border-radius:5px;
   -webkit-border-radius:5px;
@@ -297,6 +271,10 @@ a {
 		width: 100%;
 	}
 
+	h2 {
+		font-size: .9em;
+	}
+
 	#mobileimg { 
 		max-width: 90%;
 		margin-right: auto;
@@ -310,7 +288,6 @@ a {
 	.standardimg {
 		display: none;
 	}
-
 
 	span:before, span:after {
 		border: none;
