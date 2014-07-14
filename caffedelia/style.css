@@ -64,7 +64,7 @@ body {
 
 h1 {
 	font-family: 'Lato', sans-serif;
-	color: white;
+	color: #F7F0E1;
 	font-size: 1.75em;
 	font-weight: bold;
 	text-shadow: -5px 4px 4px black;
@@ -118,7 +118,7 @@ h2 {
 	max-width: 100%; 
 	height: auto; 
 	vertical-align: bottom; 
-	border: 10px solid #fff; 
+	border: 10px solid #F7F0E1; 
 	border-radius: 3px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -135,7 +135,7 @@ h2 {
 	width: 100%; 
 	height: 100%; 
 	position: absolute; 
-	border: 10px solid #fff; 
+	border: 10px solid #F7F0E1; 
 	left: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -183,7 +183,7 @@ h2 {
 
 .nav-mobile {
   display:none; /* Hide from browsers that don't support media queries */
-  border: 3px ridge #dfc170;
+  border: 1px ridge #dfc170;
   margin: 15px 25px;
   cursor:pointer;
   position:absolute;
