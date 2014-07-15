@@ -70,13 +70,13 @@ h1 {
 	text-shadow: -5px 4px 4px black;
 	margin-top: 25px;
 }
-span {
+.doubleline {
   display: inline-block;
   position: relative;
 }
 
-span:before,
-span:after {
+.doubleline:before,
+.doubleline:after {
   content: "";
   position: absolute;
   height: 5px;
@@ -86,12 +86,11 @@ span:after {
   width: 200%;
 }
 
-span:before {
+.doubleline:before {
 	right: 100%;
 	margin-right: 5%;
 }
-
-span:after {
+.doubleline:after {
 	left: 100%;
 	margin-left: 5%;
 }
