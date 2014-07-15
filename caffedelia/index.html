@@ -14,23 +14,14 @@
 
 <body>
 <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '757420640977207',
-          xfbml      : true,
-          version    : 'v2.0'
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-
-    </script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=757420640977207&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="fb-root"></div>
 
@@ -123,7 +114,7 @@
 			</div>
 
 			<div class="col span_1_of_3">
-				<div class="fb-like-box" data-href="https://www.facebook.com/caffedelia" data-height="300px" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="true"></div>
+				<div class="fb-like-box" data-href="https://www.facebook.com/caffedelia" data-height="300px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
 			</div>
 
 			<div class="col span_1_of_3">
