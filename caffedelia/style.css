@@ -198,49 +198,20 @@ h2 {
   -moz-border-radius:3px;
 }
 
-#intro{
-	background:url(images/firstBG.jpg) 50% 0 no-repeat fixed;
-	color: white;
-	height: 600px;
-	margin: 0 auto;
-	padding: 0;
-}
+.news {
+	background-color: #A8D3E3;
+} 
 
-#news {
-	background: url(images/secondBG.jpg) 50% 0 no-repeat fixed;
-	color: white;
-	height: 1300px;
-	margin: 0 auto;
-	overflow: hidden;
-	padding: 0;
-}
-
-#news .bg{
-	background: url(images/trainers.png) 50% 0 no-repeat fixed;
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: absolute;
-	width: 900px;
-	z-index: 200;
-}
-
-#menu{
-	background: url(images/thirdBG.jpg) 50% 0 no-repeat fixed;
-	color: white;
-	height: 650px;
-	padding: 100px 0 0 0;	
-}
-
-#fifth{
-	background: #ccc;
-	height: 400px;
-	margin: 0 auto;
-	padding: 40px 0 0 0;
-}
 
 .twitter-timeline {
 	margin-top: 3%;
+}
+
+h3 {
+	font-family:'Raleway', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 2%;
 }
 
 /*  SECTIONS  ============================================================================= */
