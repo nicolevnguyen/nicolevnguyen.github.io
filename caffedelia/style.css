@@ -214,8 +214,9 @@ h3 {
 	margin-top: 2%;
 }
 
-.fb-like-box {
-	background: transparent;
+.social {
+	background-color: #F7F0E1;
+	width: 100%;
 }
 
 /*  SECTIONS  ============================================================================= */
