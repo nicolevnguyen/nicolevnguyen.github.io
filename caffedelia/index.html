@@ -4,39 +4,66 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='http://fonts.googleapis.com/css?family=Lato:900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:900italic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
 	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	
-
 </head>
 
 <body>
+<script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '757420640977207',
+          xfbml      : true,
+          version    : 'v2.0'
+        });
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+
+    </script>
+
+<div id="fb-root"></div>
+
+
 <div class="bigcontainer">
 
+<!-- INTRO - 1st scroll -->
+	<!-- Logo and header -->
+	<div class="intro">	
 		<div class="section group">
 			<div class="col span_1_of_3"></div>
 
 			<div class="col span_1_of_3">
 				<img src="logo.png"/><h2><span>The Coffee That Made White Center Famous</span></h2>
+
+			<div class="col span_1_of_3"></div>
+
 			</div>
 
+	<!-- Navigation -->			
 			<div class="col span_1_of_3">
 				<nav class="nav">
 				  <ul class="nav-list nav-hidden">
-				  	<li class="nav-item"><a href="#">HOME</a></li>
-				    <li class="nav-item"><a href="#">NEWS</a></li>
-				    <li class="nav-item"><a href="#">MENU</a></li>
-				    <li class="nav-item"><a href="#">ABOUT</a></li>
+				  	<li class="nav-item"><a href="#home">HOME</a></li>
+				    <li class="nav-item"><a href="#news">NEWS</a></li>
+				    <li class="nav-item"><a href="#menu">MENU</a></li>
+				    <li class="nav-item"><a href="#about">ABOUT</a></li>
 				  </ul>
 				  <div class="nav-mobile"></div>
 				</nav> 			
 			</div>
 
-
-
+	<!-- Polaroid stacks -->			
 		<div class="section group">
 			<div class="col span_1_of_3">
 				<div class="stack">
@@ -57,6 +84,7 @@
 			</div>	
 		</div>
 
+	<!-- Hours and location -->
 		<div class="section group">
 			<div class="col span_1_of_3">
 				<h1>HOURS</h1><br>
@@ -81,10 +109,48 @@
 					<li>caffedelia@gmail.com</li>
 				</ul></h2>
 			</div>
-
-
 		</div>
+	</div>
+
+<!-- NEWS - 2nd scroll -->
+
+	<div class="news">
+		<div class="section group">
+			<div class="col span_1_of_3">
+				<a class="twitter-timeline" href="https://twitter.com/caffedelia" data-widget-id="488866131843620864" height="300px" width="auto">Tweets by @caffedelia</a>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+
+			<div class="col span_1_of_3">
+				<div class="fb-like-box" data-href="https://www.facebook.com/caffedelia" data-height="300px" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="true" data-show-border="true"></div>
+			</div>
+
+			<div class="col span_1_of_3">
+			</div>
+
+
+	</div>
+
+<!-- MENU - 3rd scroll -->
+	<div class="menu">
+	</div>
+
+<!-- ABOUT - 4rd scroll -->
+	<div class="about">
+	</div>
+
 </body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 		<script>
 		(function () {
 		
