@@ -51,7 +51,7 @@ table {
 Custom CSS begins here!*/
 
 .bigcontainer {
-	width: 99%;
+	width: 100%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -61,6 +61,8 @@ Custom CSS begins here!*/
 body {
 	background-color: #41606e;
 }
+
+
 
 h1 {
 	font-family: 'Lato', sans-serif;
@@ -83,7 +85,7 @@ h1 {
   border-bottom: 3.5px solid #A8D3E3;
   border-top: 3.5px solid #A8D3E3;
   top: 40%;
-  width: 200%;
+  width: 100%;
 }
 
 .doubleline:before {
@@ -102,8 +104,7 @@ h2 {
 	text-align: center;
 	color: #A8D3E3;
 	font-weight: normal;
-	font-size: 1em;
-	font-weight: bold;
+	font-size: 1.5em;
 }
 
 
@@ -168,7 +169,7 @@ h2 {
 .nav-item a {
   width: 90%;
   text-decoration: none;
-  font-size: .8em;
+  font-size: 1em;
   display:inline-block;
   padding: 10px;
   font-family: 'Raleway', sans-serif;
@@ -199,9 +200,12 @@ h2 {
 }
 
 .news {
-	background-color: #A8D3E3;
-} 
+	background-color: #41606e;
+	background-image: url(shot1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
 
+} 
 
 .twitter-timeline {
 	margin: 3% 3%;
@@ -209,9 +213,11 @@ h2 {
 
 h3 {
 	font-family:'Raleway', sans-serif;
-	font-size: 1.5em;
 	font-weight: bold;
 	margin-top: 2%;
+	color: white;
+	font-size: 2.5em;
+	margin-top: 5%;
 }
 
 .fb-like-box {
@@ -229,31 +235,43 @@ h3 {
 	width: 100% !important;
 }
 
-h3 {
-	color: #4A2E0B;
-	font-size: 2.5em;
-}
 
 h4 {
-	color: #41606e;
+	color: #A8D3E3;
 	font-size: 2em;
-	font-family: font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .press li>a {
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
-	color: white;
+	color: #dfc170; 
 	font-style: italic;
 	font-size: 1.75em;
 }
 
 .press li>a:hover {
-	color: #dfc170;
+	color: white;
 }
 
-.menu {
-	background-color: #41606e;
+.menu li {
+	color: #dfc170;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+.about {
+	background-image: url(paint.png);
+	background-size: 100%;
+	height: 100%;
+	max-height: 50%;
+	background-repeat: no-repeat;
+}
+.about p {
+	color: #A8D3E3;
+	font-size: 1.5em;
+	font-family: 'Raleway', sans-serif;
 }
 
 /*  SECTIONS  ============================================================================= */
@@ -262,6 +280,7 @@ h4 {
 	clear: both;
 	padding: 0px;
 	margin: 0px;
+	margin-bottom: 1%;
 }
 
 /*  GROUPING  ============================================================================= */
