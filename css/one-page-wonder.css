@@ -264,6 +264,15 @@ img {
         padding: 5px;
     }
 
+    #yellow {
+        font-size: 12px;
+    }
+
+    #yellow img {
+        height: 18px;
+        width: 18px;
+    }
+
     .featurette-divider {
         margin: 10px 0;
     }
