@@ -1,0 +1,284 @@
+/*!
+ * Start Bootstrap - One Page Wonder HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: Didot;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#yellow {
+    background: rgba(238, 233, 133, 0.6);
+}
+
+#blue {
+    background: rgba(86, 152, 211, 0.6);
+}
+
+#pink {
+    background: rgba(190, -0, 48, 0.6);
+}
+
+#green {
+    background: rgba(121, 178, 171, 0.6);
+}
+
+.tape {
+    width: 30%;
+    float: right;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.tape img {
+    border: none; 
+    height: 25px;
+    width: 25px;
+    float: right;
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('/Users/nicolenguyen/Desktop/one-page-wonder/flowers2.png')no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 5% 0% 12% 0%;
+    border: 2px ridge #767676;
+}
+
+.closer-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('/Users/nicolenguyen/Desktop/one-page-wonder/water.png') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 0% 0% 15% 0%;
+    border: 2px ridge #767676;
+}
+
+.headline {
+    padding: 120px 0px;
+}
+
+.headline h1 {
+    font-size: 100px;
+    background: #fff;
+    background: rgba(255,255,255,0.7);
+}
+
+.headline h2 {
+    font-size: 50px;
+    background: #fff;
+    background: rgba(255,255,255,0.7);
+}
+
+.featurette-divider {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+img {
+    border: 2px ridge #767676;
+}
+
+.redfin img{
+    margin-bottom: 5px;
+}
+
+
+.description {
+    border: 1px solid black;
+}
+
+.footer {
+    padding-left: 10px; padding-top: 10px; font-family: Didot;
+}
+
+@media(max-width:1200px) {
+    .headline h1 {
+        font-size: 140px;
+    }
+
+    .headline h2 {
+        font-size: 63px;
+    }
+
+    .featurette-divider {
+        margin: 50px 0;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .headline h1 {
+        font-size: 105px;
+    }
+
+    .headline h2 {
+        font-size: 50px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-image {
+        max-width: 50%;
+
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .featurette-divider {
+        margin: 40px 0;
+    }
+
+    .featurette-heading {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:668px) {
+    .headline h1 {
+        font-size: 70px;
+    }
+
+    .headline h2 {
+        font-size: 32px;
+    }
+
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+
+    .headline h1 {
+        font-size: 60px;
+    }
+
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:375px) {
+
+    .tape {
+        width: 100%;
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+    .tape h3 {
+        font-size: 16px;
+    }
+
+    .container h2 {
+        font-size: 16px;
+        padding: 5px;
+    }
+
+    .featurette-divider {
+        margin: 10px 0;
+    }
+
+    .featurette-image {
+        max-width: 100%;
+    }
+
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
