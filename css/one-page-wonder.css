@@ -67,7 +67,7 @@ a:hover {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('/Users/nicolenguyen/Desktop/one-page-wonder/flowers2.png')no-repeat center center scroll;
+    background: url('flowers2.png')no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -80,7 +80,7 @@ a:hover {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('/Users/nicolenguyen/Desktop/one-page-wonder/water.png') no-repeat center center scroll;
+    background: url('water.png') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
