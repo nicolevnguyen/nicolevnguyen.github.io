@@ -25,6 +25,7 @@ h3 {
 
 #yellow {
     background: rgba(238, 233, 133, 0.6);
+    text-transform: uppercase;
 }
 
 #blue {
@@ -57,7 +58,7 @@ a:hover {
 }
 
 .tape img {
-    border: none; 
+    border: none;
     height: 25px;
     width: 25px;
     float: right;
