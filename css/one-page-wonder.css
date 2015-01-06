@@ -20,12 +20,12 @@ h3 {
     width: 100%;
     text-align: center;
     padding: 10px;
+    font-size: 20px;
 }
 
 
 #yellow {
     background: rgba(238, 233, 133, 0.6);
-    text-transform: uppercase;
 }
 
 #blue {
